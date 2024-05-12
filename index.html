@@ -9,24 +9,24 @@
 <body>
     <div class="container">
     <header>
-        <form>
+        <form class="search-form">
             <input type="text" placeholder="Enter a city" autocomplete="off" autofocus="on" class="search-input" />
-            <input type="submit" value="Search" />
+            <input type="submit" value="Search" class="search-button" />
         </form>
     </header>
     <main>
+        <div class="weather-app-data">
         <div>
-        <div>
-        <h1>
+        <h1 class="weather-app-city">
             Paris
         </h1>
-        <p>
+        <p class="weather-app-details">
             Tuesday 11, moderate rain <br />
             Humidity <strong>87%</strong> Wind <strong>7.2km/h</strong>
         </p>
         </div>
-        <div>
-            <span>14°C</span>
+        <div class="weather-app-temperature">
+            <span class="current-temperature">14</span><span class="current-temperature-unit">°C</span>
         </div>
         </div>
     </main>
