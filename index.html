@@ -9,15 +9,15 @@
 <body>
     <div class="container">
     <header>
-        <form class="search-form">
-            <input type="text" placeholder="Enter a city" autocomplete="off" autofocus="on" class="search-input" />
+        <form id="search-form">
+            <input type="text" placeholder="Enter a city" autocomplete="off" autofocus="on" class="search-form-input" id="search-form-input" />
             <input type="submit" value="Search" class="search-button" />
         </form>
     </header>
     <main>
         <div class="weather-app-data">
         <div>
-        <h1 class="weather-app-city">
+        <h1 class="weather-app-city" id="city">
             Paris
         </h1>
         <p class="weather-app-details">
@@ -32,9 +32,10 @@
     </main>
     <footer>
         <p>
-            <a href="https://github.com/AdeolaK/forecast-project">Open source code by</a>, Adeola Kehinde
+            <a href="https://github.com/AdeolaK/forecast-project" target="_blank">Open source code by</a>, Adeola Kehinde
         </p>
     </footer>
     </div>
+    <script src="src/index.js"></script>
 </body>
 </html>
