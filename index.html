@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather App</title>
     <link rel="stylesheet" href="src/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
 </head>
 <body>
     <div class="container">
@@ -17,16 +18,14 @@
     <main>
         <div class="weather-app-data">
         <div>
-        <h1 class="weather-app-city" id="city">
-            Paris
-        </h1>
+        <h1 class="weather-app-city" id="city"></h1>
         <p class="weather-app-details">
             Tuesday 11, moderate rain <br />
             Humidity <strong>87%</strong> Wind <strong>7.2km/h</strong>
         </p>
         </div>
         <div class="weather-app-temperature">
-            <span class="current-temperature">14</span><span class="current-temperature-unit">°C</span>
+            <span class="current-temperature" id="current-temperature"></span><span class="current-temperature-unit">°C</span>
         </div>
         </div>
     </main>
