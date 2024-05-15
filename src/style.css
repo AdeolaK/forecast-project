@@ -35,6 +35,12 @@ a {
     padding: 20px;
     line-height: 1;
     border-radius: 5px;
+    transition: all 200ms ease-in-out;
+}
+
+.search-button:hover {
+    background-color: #AD5C59;
+    color: white;
 }
 
 .weather-app-data {
